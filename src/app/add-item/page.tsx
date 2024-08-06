@@ -3,7 +3,7 @@
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 
-export default function Home() {
+export default function AddItem() {
   return (
     <Box
       sx={{
@@ -17,7 +17,7 @@ export default function Home() {
       }}
     >
       <Typography variant="h4" color={(theme) => theme.palette.text.primary}>
-        Home
+        Add Item
       </Typography>
     </Box>
   );
